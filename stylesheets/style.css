@@ -105,8 +105,11 @@ h2{font-size: 23px; margin: 5px;}
 
 /* RESPONSIVE */
 
-@media (min-width: 992px){
-	#main{
-		min-height: 560px;
+@media (min-height: 700px){
+	#main {
+	    min-height: 680px;
+	}
+	.pt-10 {
+    	padding-top: 15%;
 	}
 }
